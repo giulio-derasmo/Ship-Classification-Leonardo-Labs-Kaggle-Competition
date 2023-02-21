@@ -38,6 +38,12 @@ Here are some examples:
 | SE-ResNeXt | <https://arxiv.org/abs/1709.01507v4>      |https://rwightman.github.io/pytorch-image-models/models/seresnext/|
 | Xception | <https://arxiv.org/abs/1610.02357>      |https://rwightman.github.io/pytorch-image-models/models/xception/|
 
+## Team members
+- [Giulio D'Erasmo](https://github.com/giulio-derasmo)
+- [Arturo Ghinassi](https://github.com/santurini)
+- [Andrea Potì](https://github.com/obster991)
+- [Amedeo Ranaldi](https://github.com/Requiem98)
+- [Camilla Savarese](https://github.com/Camillasavarese)
 
 #
 <p align="center">
