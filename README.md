@@ -19,6 +19,7 @@ The dataset can be downloaded with the following command:
 ```python
 !gdown 1hukMWTFj2aSqx2jBh42R-Y6UXrSw60Nj
 ```
+The preprocess of the image is done image by image by us for a fine-tuned cleaning and a first automatic cleaning using VGG16 to extract the feature of the image and use a unsupervised method to cluster the image in different class.
 
 Here are some examples:
 
