@@ -26,15 +26,7 @@ Here are some examples:
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="244" src="https://user-images.githubusercontent.com/91251307/190616163-c5efa3af-3ba4-46c5-a165-2b8c10992c7f.jpg">|<img width="244" src="https://user-images.githubusercontent.com/91251307/190616552-8b9e4424-8627-47e0-9333-66492a971017.jpg">|<img width="244" src="https://user-images.githubusercontent.com/91251307/190616944-4df17a42-12b2-46f8-bd74-47e5025be104.jpg">|<img width="244" src="https://user-images.githubusercontent.com/91251307/190617257-88529bf0-9e37-4b79-854f-bd2ab0c47cbe.jpg">|<img width="244" src="https://user-images.githubusercontent.com/91251307/190617425-ff803acb-de1b-4634-b0b0-9bd132654f8f.jpg">|<img width="244" src="https://user-images.githubusercontent.com/91251307/190617596-531c9c00-9767-456f-8d49-ef4e8eee4929.jpg">|<img width="244" src="https://user-images.githubusercontent.com/91251307/190617746-4d946024-9aa1-4b36-8e6d-264fddafbff7.jpg">|
 
-## Pipeline
-
-### Setup
-
-The adopted loss criterion was the [Cross-Entropy Loss](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html).
-The Optimizer was [Adam](https://pytorch.org/docs/stable/generated/torch.optim.Adam.html) for the first 10 epoques to get closer to the local maxima and then [SGD](https://pytorch.org/docs/stable/generated/torch.optim.SGD.html#torch.optim.SGD) for 5 more epoques to have a smoother convergence with a [Lambda scheduler](https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.LambdaLR.html).
-We chose a small batch size equal to 8 in order to reduce the computational time and have a faster convergence.
-
-### Models
+## Models
 
 | Models       | Paper           | Link  |
 | :-------------------------- |:--------------------------|:--------------------------|
